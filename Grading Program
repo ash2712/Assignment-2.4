@@ -1,0 +1,46 @@
+import java.util.Scanner;
+public class MyClass{
+	
+	public static void main(String s[])
+	{
+		int marks;
+		int age;
+		
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Please input age -");
+		
+		age = sc.nextInt();
+		
+		System.out.println("Please input marks -");
+		
+		marks = sc.nextInt();
+		
+		if(age < 15){
+			if(marks > 60){
+				System.out.println("His grade is A");
+			}
+			else if(marks> 45 && marks < 60)
+			{
+				System.out.println("His grade is B");
+			}
+			else
+			{
+				System.out.println("His grade is C");
+			}}
+		else{
+			if(marks > 70){
+				System.out.println("His grade is A");
+			}
+			else if(marks> 61 && marks < 70)
+			{
+				System.out.println("His grade is B");
+			}
+			else
+			{
+				System.out.println("His grade is C");
+		}
+		}
+		
+	}
+	
+}
